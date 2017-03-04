@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #333333;
+  width: 100%;
+  height: 360px;
+  margin: 0 auto;
+}
+
+  .menu ul {
+    width: 100%;
+    height: 50px;
+    background-color: #16a085;
+    text-align: center;
+    word-spacing: 40px;
+    padding-top: 20px;
+  }
+
+    .menu ul li {
+      display: inline-block;
+    }
+
+      .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+      }
+
+      .menu ul li a:hover {
+        text-decoration: none;
+        color: red;
+        font-size: 25px;
+      }
+
+  .logo {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+  }
+
+.picture {
+  background: url(images/pic01.jpg);
+  width: auto;
+  height: 300px;
+  overflow: hidden;
+}
+
+content {
+  height: 400px;
+  font-size: 18px;
+}
+
+  .kolom-1 {
+    margin:  15px;
+    padding: 15px;
+    width: 70%;
+    float: left;
+    line-height: 30px;
+  }
+
+  .kolom-2 {
+    margin:  15px;
+    padding: 15px;
+    line-height: 40px;
+  }
+
+  .kolom-2 ul li {
+    list-style: none;
+  }
+
+  .border {
+    border-bottom: 1px solid black;
+    display: inline-block;
+  }
+
+  .kolom-2 ul li a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+footer {
+  background-color: #16a085;
+  height: 50px;
+  color: white;
+}
+
+footer small {
+  display: inline-block;
+
+  margin: 0 auto;
+  padding-left: 220px;
+  padding-top: 20px;
+}
